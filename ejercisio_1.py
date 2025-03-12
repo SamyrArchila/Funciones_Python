@@ -8,3 +8,5 @@ def mostrar_nombre(nombre):
 print("------------------")
 mostrar_nombre("Samyr")
 print("------------------")
+
+print("Eso era...")

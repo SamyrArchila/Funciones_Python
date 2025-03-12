@@ -1,13 +1,16 @@
 # Construir una funcion que reciba cadena digitada(como parametro) por el usuario y que lo muestre n veces en la pantalla. El valor de n tambien es digitado por el usuario 
 
-def repetir_cadena(cadena, n):
+def mostrar_cadena(cadena, n):
 
     n = int(n) 
-    for _ in range(n):
+    for _ in range(1,n+1):
         print(cadena)
 
 print("------------------------------------------------------------------------------------------")
-cadena_usuario = input("Repite la cadena: ")
-repeticiones_usuario = int(input("Ingrese el número de veces que va a repetir la cadena: "))
+cadena = input("Repite la cadena: ")
+n = int(input("Digite el número de veces que va a mostrar la cadena: "))
 print("------------------------------------------------------------------------------------------")
-repetir_cadena(cadena_usuario, repeticiones_usuario)
+mostrar_cadena(cadena, n)
+print("------------------------------------------------")
+print("Eso era")
+print("------------------------------------------------------------------------------------------")
